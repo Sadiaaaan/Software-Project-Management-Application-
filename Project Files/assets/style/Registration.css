@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(60, 60, 56);
+    color: white;
+  }
+a{
+    text-decoration: none;
+    color: white;
+}
+.welcome{
+    font-size: x-large;
+    margin:auto;
+    font:bolder;                            
+    color: white;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+.register {
+    align-items: center;
+    display: flex;
+    gap: 0.625%;
+    flex-direction: column;
+    
+  }
+  hr{
+    border: 2px solid green;
+    border-radius: 5px;
+  }
+  .input{
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+  }
+  .input input{
+    width: 100%;
+    height: 60%;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: white;
+    background: transparent;
+  }
+  .logout{
+    background-color: none;
+    color:white;
+    padding: 10px;
+    border: 2px solid white;
+  }
+  .logout:hover{
+    background-color:white;
+    color:black;
+    transition: ease .5s;
+  }
+  .submit{
+    background-color: none;
+    color:black;
+    padding: 10px;
+    border: 2px solid white;
+    width: 100%;
+  }
+  .submit:hover{
+    background-color:green;
+    color:white;
+    transition: ease .5s;
+  }
+  .custom-select{
+    background-color: none;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+  }
+#message{
+  position: absolute;
+  color:blue;
+}
+ 
